@@ -1,4 +1,5 @@
 //todo Завдання 1:
+
 // Створіть масив styles з елементами 'jazz' і 'blues'
 // Додайте до кінця масиву елемент 'rock-n-roll' за допомогою відповідного методу масивів
 // Знайдіть елемент 'blues' у масиві та замініть його на 'classic', використовуючи код
@@ -10,6 +11,7 @@
 // Нумерація елементів повинна починатися з 1 (а не з 0).
 
 //? Вирішення:
+
 // const styles = ['jazz', 'blues'];
 // styles.push('rock-n-roll');
 // styles[styles.indexOf('blues')] = 'classic';
@@ -23,6 +25,7 @@
 // logItems(styles);
 
 //todo Завдання 2:
+
 // Напишіть функцію checkLogin(array), яка:
 // Приймає масив логінів як аргумент.
 // Запитує ім'я користувача через prompt.
@@ -33,6 +36,7 @@
 // const logins = ["Peter", "John", "Igor", "Sasha"];
 
 //? Вирішення:
+
 // const logins = ['Peter', 'John', 'Igor', 'Sasha'];
 
 // function checkLogin(array) {
@@ -47,12 +51,14 @@
 // checkLogin(logins);
 
 //todo Завдання 3:
+
 // Напишіть функцію caclculateAverage(),
 // яка приймає довільну кількість
 // аргументів і повертає їхнє середнє значення.
 // Додайте перевірку, що аргументи - це числа.
 
 //? Вирішення:
+
 // function caclculateAverage(...args) {
 //   let sum = 0;
 //   let count = 0;
@@ -68,6 +74,7 @@
 // console.log(caclculateAverage(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
 
 //todo Завдання 4:
+
 // Напишіть функцію, яка сумуватиме сусідні числа
 // і пушитиме їх в новий масив.
 
@@ -78,6 +85,7 @@
 // В результаті функція має повертати масив [33, 45, 39, 17, 25, 27, 29].
 
 //? Вирішення:
+
 // const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
 
 // function sumNumbers(array) {
@@ -91,6 +99,7 @@
 // console.log(sumNumbers(someArr));
 
 //todo Завдання 5:
+
 // Напишіть функцію findSmallestNumber(numbers),
 // яка шукає найменше число в масиві.
 // Додайте перевірку, що функція отримує саме масив, і
@@ -100,6 +109,7 @@
 // const numbers = [2, 5, 35, 56, 12, 24, 7, 80, 3];
 
 //? Вирішення:
+
 // const numbers = [2, 5, 35, 56, 12, 24, 7, 80, 3];
 
 // function findSmallestNumber(numbers) {
@@ -112,6 +122,7 @@
 // console.log(findSmallestNumber(numbers));
 
 //todo Завдання 6:
+
 // Напишіть функцію findLongestWord(string), яка
 // приймає довільний рядок, що складається лише зі слів, розділених
 // пробілами (параметр string), і повертатиме найдовше слово у реченні.
@@ -120,6 +131,7 @@
 // console.log(findLongestWord("London is the capital of Great Britain")); // 'capital'
 
 // //? Вирішення:
+
 // function findLongestWord(string) {
 //   const words = string.split(' ');
 //   let longestWord = words[0];
@@ -134,6 +146,7 @@
 // console.log(findLongestWord('London is the capital of Grand Britain'));
 
 //todo Завдання 7:
+
 // Напишіть скрипт, який для об'єкту user, послідовно:
 // 1 - додасть поле mood зі значенням 'happy',
 // 2 - замінить hobby на 'skydiving',
@@ -149,6 +162,7 @@
 //   };
 
 //? Вирішення:
+
 // const user = {
 //   name: 'John',
 //   age: 20,
@@ -165,6 +179,7 @@
 // }
 
 //todo Завдання 8:
+
 // Є об'єкт, в якому зберігаються зарплати команди
 // Напишіть код для додавання усіх зарплат та
 // збережіть його результат в змінній sum.
@@ -177,6 +192,7 @@
 //   };
 
 //? Вирішення:
+
 // const salaries = {
 //   Mango: 100,
 //   Poly: 160,
@@ -194,6 +210,7 @@
 // console.log(sumSalaries(salaries));
 
 //todo Завдання 9:
+
 // Створіть об'єкт calculator з наступними методами:
 // read(a, b) - приймає два аргумента і зберігає їх як властивості об'єкта,
 // sum() - повертає сумму збереженних значень (з перевіркою на наявність властивостей в об'єкті),
@@ -204,6 +221,7 @@
 // методи sum і mult мають повертати рядок 'No such propeties'
 
 //? Вирішення:
+
 // const calculator = {
 //   read(a, b) {
 //     this.a = a;
@@ -238,6 +256,7 @@
 // console.log(calculator.mult()); // 'No such properties'
 
 //todo Завдання 10:
+
 // Напишіть функцію calcTotalPrice(fruits, fruitName),
 // яка приймає массив об'єктів (fruits) і рядок з назвою фрукта (fruitName).
 // Функція рахує і повертає загальну вартість фрукта
@@ -256,6 +275,7 @@
 //   ];
 
 //? Вирішення:
+
 // const fruits = [
 //   { name: 'Яблуко', price: 45, quantity: 7 },
 //   { name: 'Апельсин', price: 60, quantity: 4 },
